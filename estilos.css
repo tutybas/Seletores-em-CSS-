@@ -1,0 +1,46 @@
+    #id12 {
+      color: blueviolet; font-size: 90px;
+    }
+
+    .destaque{
+        color: red;
+        }
+
+    section{
+        background-color: violet;
+    }
+
+    #idpsec {
+        color: blue
+    }
+
+    a[target="_blank"] {
+        border: 2px solid;
+    }
+
+    p:first-of-type {
+        color: black
+    }
+
+    .minha-div {
+        width: 200px;
+        height: 30px;
+        background-color: blue;
+        transition: 0.3s ease; 
+    }           
+
+
+    .minha-div:hover {
+        background-color: red;
+        transform: scale(1.1); 
+    }
+
+    h2.titulo-destaque::first-letter {
+        font-size: 16px;
+        color: aqua;  
+    }
+
+    .fonte {
+    font-family: "Courier New", monospace;
+    }
+    
